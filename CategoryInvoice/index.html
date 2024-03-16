@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h5>E-Commerce Invoice</h5>
+    <div id="products">
+      <div id="forms">
+        <div>
+          <label for="product">Product</label>
+          <input type="text" id="product" />
+          <input type="button" value="Add" id="add" />
+          <select id="sel"></select>
+        </div>
+        <div>
+          <label for="pname">Product Name</label>
+          <input type="text" id="pname" />
+        </div>
+        <div>
+          <label for="image">Product Image</label>
+          <input type="file" id="pimage" />
+        </div>
+        <div>
+          <label for="rate">Rate</label>
+          <input type="number" id="rate" />
+        </div>
+        <div>
+          <label for="qty">Quantity</label>
+          <input type="number" id="qty" />
+        </div>
+        <div>
+          <label for="amount">Amount</label>
+          <input type="number" id="amount" />
+        </div>
+        <div>
+          <input type="button" id="button" value="submit" />
+        </div>
+      </div>
+
+      <div>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+          </tr>
+          <tr>
+            <tbody id="display"></tbody>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+label{
+    font-size: larger;
+    font-weight: bold;
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input[type="text"][type="number"]{
+    border: 1px solid none skyblue;
+    border: none;
+    padding: 10px;
+    
+}
+#products{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+input[type="button"]{
+    padding: 8px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+table th,td{
+    padding: 30px;
+    border: 1px solid grey;
+  
+}
+table{
+    margin-top: 30px;
+}
+h5{
+    text-align: center;
+    background-color: rgb(255, 230, 182);
+    padding: 10px;
+}
