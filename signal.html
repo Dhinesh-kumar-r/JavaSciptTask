@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #red,
+      #yellow,
+      #green {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: black;
+      }
+
+      #signal {
+        background-color: rgb(19, 19, 62);
+        padding: 20px;
+        border-radius: 20px;
+        margin-left: 80px;
+      }
+      #label {
+        margin-top: 25px;
+      }
+
+      #signal div {
+        margin-bottom: 10px;
+      }
+
+      #sig {
+        display: flex;
+        flex-direction: row;
+        background-color: lightgoldenrodyellow;
+        width: max-content;
+        padding: 20px;
+        margin-left: 30%;
+        margin-top: 10%;
+      }
+
+      button {
+        margin-bottom: 50px;
+        background-color: lightcoral;
+        border: none;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sig">
+      <div id="label">
+        <button id="stop">Stop</button><br />
+        <button id="ready">Ready</button><br />
+        <button id="go">Go</button>
+      </div>
+
+      <div id="signal">
+        <div id="red"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+      </div>
+    </div>
+
+    <script src="./signal.js"></script>
+  </body>
+</html>
